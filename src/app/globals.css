@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (max-width: 768px) {
+    /* Make the table scrollable */
+    table {
+      overflow-x: auto;
+      display: block;
+    }
+  
+    th, td {
+      white-space: nowrap; /* Prevent text from wrapping */
+      padding: 8px;
+    }
+  
+    /* Stack the columns vertically on small screens */
+    .flex {
+      flex-direction: column; /* Stack Search and Sorting on top of each other */
+    }
+  }
+  
