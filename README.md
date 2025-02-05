@@ -4,6 +4,6 @@ I have created an admin panel for my e-commerce website where the owner can view
 
 The admin panel is properly secured, and it's currently in the testing phase. The credentials to access the admin panel are as follows:
 
-- **Email**: shahroxyt@gmail.com
+- **Email**: admin@gmail.com
 - **Password**: admin123
  
