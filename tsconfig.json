@@ -17,10 +17,8 @@
         "name": "next"
       }
     ],
-    "baseUrl": ".",                     // Define baseUrl only once
     "paths": {
-      "@/*": ["./src/*"],                 // If you have 'src' folder
-      "@lib/*": ["lib/*"]                 // This line maps @lib to lib folder
+      "@/*": ["./src/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

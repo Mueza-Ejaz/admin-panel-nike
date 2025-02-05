@@ -1,12 +1,9 @@
-import Dashboard from "./components/dashboard/page"
+import React from 'react'
+import LoginPage from './components/LoginForm'
 
+const page = () => {
+  return <LoginPage/>
 
-const Home = () => {
-  return (
-    <div>
-        <Dashboard/>
-    </div>
-  )
 }
 
-export default Home
+export default page
